@@ -17,8 +17,8 @@ button.onclick = function () {
 
 // 開発中のホットリロード時のみアンコメントする、自動再生できて開発効率up。なおホットリロード以外のリロードでは、鳴らなくなり、対策方法も不明、Shared Pianoはそのときも動いているが方法不明、むしろ自動再生ポリシー的にはShared Pianoがスーパーリロード時すら自動再生できているほうが原因不明。
 function initAtLoad() {
-  setupMidiIn();
-  initToneJs();
+  // setupMidiIn();
+  // initToneJs();
 }
 
 function setupMidiIn() {
