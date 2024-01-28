@@ -5,23 +5,28 @@
 - 音を鳴らすには、Usageを参照ください
 
 # Features
-- webpageを開くだけでソフトシンセを鳴らせます
-- Tone.jsにより、リッチな音色を簡単に実装できます
-- ソースコードをテンプレートとして利用しやすい、小規模、シンプル、easyな構成
+- 開発者用のシンプルなテンプレート
+    - webpageを開くだけでソフトシンセを鳴らせます
+    - Tone.jsにより、リッチな音色を簡単に実装できます
+    - ソースコードをテンプレートとして利用しやすい、小規模、シンプル、easyな構成
 
 # Requirement
-- Windows + loopMIDI + ブラウザ
-    - 物理`MIDIキーボード`や`シーケンサ`があれば、loopMIDIなしでもOK
-    - Chromeで動作確認しています
+- 音を鳴らすには：
+    - Windows + loopMIDI + ブラウザ
+        - 物理`MIDIキーボード`や`シーケンサ`があれば、loopMIDIなしでもOK
+        - Chromeで動作確認しています
+- 開発するには：
+    - `Node.js`
 
 # Usage
-- [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)のinstallと、port設定
-    - portは一つ `+` ボタンで登録すれば十分です。
-    - うまくいかない場合はOS再起動もお試しください。
-- `MIDIシーケンサ`の接続
-    - [Easy Web MIDI Sequencer](https://cat2151.github.io/easy-web-midi-sequencer-template/) など、`Web MIDI` を送信できるアプリを開いておきます
-- 演奏
-    - あとは[当アプリ](https://cat2151.github.io/easy-web-midi-synth-template/dist/)を開いて `playボタン` をクリックすれば演奏されます
+- 音を鳴らすには：
+    - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)のinstallと、port設定
+        - portは一つ `+` ボタンで登録すれば十分です。
+        - うまくいかない場合はOS再起動もお試しください。
+    - `MIDIシーケンサ`の接続
+        - [Easy Web MIDI Sequencer](https://cat2151.github.io/easy-web-midi-sequencer-template/) など、`Web MIDI` を送信できるアプリを開いておきます
+    - 演奏
+        - あとは[当アプリ](https://cat2151.github.io/easy-web-midi-synth-template/dist/)を開いて `playボタン` をクリックすれば演奏されます
 
 # Installation
 - 開発するには：
