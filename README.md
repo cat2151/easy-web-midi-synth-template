@@ -1,7 +1,7 @@
 # easy-web-midi-synth-template
 
 # Demo
-- [Demo](https://cat2151.github.io/easy-web-midi-synth-template/)
+- [Demo](https://cat2151.github.io/easy-web-midi-synth-template/dist/)
 - 音を鳴らすには、Usageを参照ください
 
 # Features
@@ -21,7 +21,7 @@
 - `MIDIシーケンサ`の接続
     - [Easy Web MIDI Sequencer](https://cat2151.github.io/easy-web-midi-sequencer-template/) など、`Web MIDI` を送信できるアプリを開いておきます
 - 演奏
-    - あとは[当アプリ](https://cat2151.github.io/easy-web-midi-synth-template/)を開いて `playボタン` をクリックすれば演奏されます
+    - あとは[当アプリ](https://cat2151.github.io/easy-web-midi-synth-template/dist/)を開いて `playボタン` をクリックすれば演奏されます
 
 # Installation
 - 開発するには：
