@@ -1,4 +1,4 @@
-import * as Tone from 'tone';
+// import * as Tone from 'tone'; // コメントアウトする。index.htmlでTone.jsをsrcする。そうしないとバンドラーを使わない別projectにおいてソースをそのまま利用できず不便だったので。
 
 function initSynthSaw(s) {
   const synth = new Tone.Synth({oscillator: {type: 'sawtooth'}});
